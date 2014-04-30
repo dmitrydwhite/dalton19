@@ -1,0 +1,142 @@
+body {
+  background-color: #24221f;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  background-color: #1c135f;
+  border-radius: 14px;
+  min-height: 400px;
+}
+
+.head_space {
+  min-height: 100px;
+}
+
+.head_bar {
+  text-align: center;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 32px;
+  font-family: 'Open Sans Condensed', Arial, 'sans-serif';
+  color: #f4f301;
+}
+
+.image_area {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo_area {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+
+.picture_area {
+  float: right;
+  width: 50%;
+}
+
+.contact_bar {
+  text-align: center;
+  color: white;
+  margin: 5px;
+  font-family: 'Lato', sans-serif;
+  padding-top: 60px;
+}
+
+.clear {
+  clear: both;
+}
+
+.support_bar {
+  border-radius: 7px;
+  padding: 5px;
+  background-color: #69bee8;
+  text-align: center;
+  font-size: 24px;
+  /*font-family: 'Open Sans Condensed', Arial, 'sans-serif';*/
+  font-weight: bold;
+  color: #1c135f;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.support_area {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.email_feeder {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  color: #69bee8;
+  font-weight: bold;
+}
+
+input {
+  background-color: #f4f301;
+  height: 31px;
+}
+
+.support_button, .continue_button {
+  height: 62px;
+  line-height: 62px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  background: -webkit-linear-gradient(#f4f301, #ce9208); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#f4f301, #ce9208); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#f4f301, #ce9208); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#f4f301, #ce9208); /* Standard syntax */
+}
+
+.support_button:hover, .continue_button:hover {
+  background: -webkit-linear-gradient(#ce9208, #f4f301); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ce9208, #f4f301); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ce9208, #f4f301); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ce9208, #f4f301); /* Standard syntax */
+}
+
+.support_button {
+  width: 88%;
+}
+
+.continue_button {
+  width: 35%;
+  font-size: 1em;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  
+}
+
+.legalese {
+  border: 1px solid white;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans Condensed', Arial, 'sans-serif';
+}
