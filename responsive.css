@@ -1,4 +1,4 @@
-@media screen and (max-width: 730px) and (max-device-width: 730px) {
+@media screen and (max-width: 730px) and (min-device-width: 730px) {
 
   .container {
     width: 100%;
@@ -17,7 +17,7 @@
 
 }
 
-@media screen and (max-width: 518px) and (max-device-width: 518px) {
+@media screen and (max-width: 518px) and (min-device-width: 518px) {
 
   .container {
     width: 100%;
