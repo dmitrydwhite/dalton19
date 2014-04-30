@@ -94,6 +94,10 @@ input {
   height: 31px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .support_button, .continue_button {
   height: 62px;
   line-height: 62px;
