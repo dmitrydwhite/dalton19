@@ -1,0 +1,30 @@
+@media screen and (max-width: 480px) {
+
+  .container {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1.25em;
+  }
+
+  .image_area, .logo_area {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .picture_area {
+    width: 85%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+
+  .clear {
+    clear: none;
+  }
+
+
+}

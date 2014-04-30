@@ -94,6 +94,10 @@ input {
   height: 31px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .support_button, .continue_button {
   height: 62px;
   line-height: 62px;
@@ -120,10 +124,12 @@ input {
 
 .support_button {
   width: 88%;
+  min-width: 206px;
 }
 
 .continue_button {
   width: 35%;
+  min-width: 213px;
   font-size: 1em;
 }
 
