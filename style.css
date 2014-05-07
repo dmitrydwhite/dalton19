@@ -23,6 +23,16 @@ img {
   
 }
 
+.head_image {
+  width: 70%;
+  float: left;
+}
+
+.inset_image {
+  width: 30%;
+  float: left;
+}
+
 .head_space {
   min-height: 100px;
 }
@@ -36,6 +46,11 @@ h2 {
   font-size: 32px;
   font-family: 'Open Sans Condensed', Arial, 'sans-serif';
   color: #f4f301;
+}
+
+.main_content {
+  width: 80%;
+  background-color: white;
 }
 
 .image_area {
