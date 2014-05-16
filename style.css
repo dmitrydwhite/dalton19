@@ -20,7 +20,7 @@ img {
   background-color: #1c135f;
   border-radius: 14px;
   min-height: 400px;
-  
+
 }
 
 .head_image {
@@ -31,6 +31,15 @@ img {
 .inset_image {
   width: 30%;
   float: left;
+  background-color: white;
+}
+
+.inset_headshot {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .head_space {
@@ -164,7 +173,7 @@ a {
 footer {
   text-align: center;
   color: white;
-  
+
 }
 
 .legalese {
