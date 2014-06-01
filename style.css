@@ -84,6 +84,7 @@ img {
   width: 25%;
   float: left;
   background-color: white;
+  box-shadow: inset 0 0 10px black;
 }
 
 .inset_headshot {
