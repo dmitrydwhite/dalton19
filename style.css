@@ -25,21 +25,21 @@ img {
 
 .logo_left {
   float: left;
-  width: 20%;
+  width: 33%;
 }
 
 .upper_button_area {
   float: right;
-  width: 80%;
+  width: 67%;
 }
 
 .head_button, .fb_button {
   float: right;
-  width: 150px;
+  width: 215px;
   height: 47px;
   line-height: 47px;
   text-align: center;
-  margin: 3px;
+  margin: 13px;
 }
 
 .head_button{
@@ -54,10 +54,23 @@ img {
   background: linear-gradient(#f4f301, #ce9208); /* Standard syntax */
 }
 
+.head_button:hover {
+  background: -webkit-linear-gradient(#ce9208, #f4f301); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ce9208, #f4f301); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ce9208, #f4f301); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ce9208, #f4f301); /* Standard syntax */
+}
+
 .fb_button {
-  background-color: #6d84b4;
+  background-color: #3b5998;
   font-family: Tahoma;
+  text-shadow: 1px 1px 1px black;
   color: #ffffff;
+}
+
+.fb_button > span {
+  font-size: 24px;
+  text-shadow: none;
 }
 
 .fb_button > img {
@@ -65,9 +78,15 @@ img {
   width: 20px;
 }
 
+.fb_button:hover {
+  background-color: #162242;
+}
+
 .first_bar {
   width: 100%;
   margin-bottom: 8px;
+  max-height: 373px;
+  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
 }
@@ -83,16 +102,18 @@ img {
 .inset_image {
   width: 25%;
   float: left;
-  background-color: white;
-  box-shadow: inset 0 0 10px black;
+  background-color: #1c135f;
+  /* box-shadow: inset 0 0 10px black; */
 }
 
 .inset_headshot {
+  max-height: 373px;
+  overflow: hidden;
   /* width: 90%; */
-  margin-left: 10px;
+  /* margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; */
 }
 
 .head_space {
@@ -100,7 +121,7 @@ img {
 }
 
 .small_head_space {
-  min-height: 50px;
+  min-height: 25px;
 }
 
 .head_bar {
@@ -108,7 +129,10 @@ img {
 }
 
 nav {
-  background-color: #1c1336;
+  background: -webkit-linear-gradient(#1c1336, #291c4f); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#1c1336, #291c4f); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#1c1336, #291c4f); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#1c1336, #291c4f); /* Standard syntax */
   min-height: 42px;
   text-align: center;
   margin-top: 5px;
@@ -124,9 +148,9 @@ nav {
 .nav_button {
   float: left;
   text-decoration: none;
-  color: #615582;
+  text-shadow: 1px 1px 1px black;
+  color: #8ca6c2;
   font-family: Helvetica;
-  border: 1px solid #1c1336;
   width: auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -135,12 +159,8 @@ nav {
 }
 
 .nav_button:hover {
-  color: white;
+  color: #9ab3c4;
   background-color: #1c135f;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-top: 1px solid #1c135f;
-  border-bottom: 1px solid #1c135f;
 }
 
 h2 {
@@ -152,44 +172,48 @@ h2 {
 
 .main_content {
   float: left;
-  width: 60%;
+  width: 65%;
   background-color: white;
   margin: 10px;
   padding: 15px;
+  font-size: 18px;
 }
 
 .events {
-  border-radius: 22px;
-  background-color: white;
-  font: Courier;
-  width: 35%;
+  background-color: #f4f301;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  margin: 10px;
+  width: 25%;
   float: left;
 }
 
 .events_title {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
-  background-color: orange;
+  text-shadow: 2px 2px 2px black;
   padding: 22px;
-  padding-bottom: 44px;
-  border-radius: 22px;
 }
 
 .events_body {
   font-size: 18px;
+  font-family: Helvetica;
+  color: black;
+  text-shadow: 1px 1px 1px white;
   padding: 22px;
-  padding-top: 11px;
 }
 
-.events_body > h3 {
-  font-size: 18px;
-  padding: 8px;
-  padding-top: 16px;
+.events_body > h3, h4 {
+  margin: 0;
+  padding: 0;
 }
 
-.events_body > p {
-  text-indent: 30px;
-  padding: 4px;
+.event_info {
+  margin-left: 15px;
+}
+
+.events_spacer {
+  min-height: 15px;
 }
 
 .image_area {
@@ -218,6 +242,7 @@ h2 {
 .contact_bar {
   text-align: center;
   color: white;
+  font-size: 18px;
   margin: 5px;
   font-family: 'Lato', sans-serif;
   padding-top: 60px;
