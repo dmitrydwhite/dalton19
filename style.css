@@ -17,7 +17,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
-  background-color: #1c135f;
+  background-color: #16205b;
   border-radius: 14px;
   min-height: 400px;
 
@@ -79,7 +79,7 @@ img {
 }
 
 .fb_button:hover {
-  background-color: #162242;
+  background-color: #25386e;
 }
 
 .first_bar {
@@ -133,7 +133,7 @@ nav {
   background: -o-linear-gradient(#1c1336, #291c4f); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#1c1336, #291c4f); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#1c1336, #291c4f); /* Standard syntax */
-  min-height: 42px;
+  min-height: 46px;
   text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -151,16 +151,17 @@ nav {
   text-shadow: 1px 1px 1px black;
   color: #8ca6c2;
   font-family: Helvetica;
+  font-size: 1em;
   width: auto;
   padding-left: 15px;
   padding-right: 15px;
-  height: 40px;
-  line-height: 40px;
+  height: 44px;
+  line-height: 44px;
 }
 
 .nav_button:hover {
   color: #9ab3c4;
-  background-color: #1c135f;
+  background-color: #16205b;
 }
 
 h2 {
@@ -179,8 +180,12 @@ h2 {
   font-size: 18px;
 }
 
+.main_content > p {
+  text-align: justify;
+}
+
 .events {
-  background-color: #f4f301;
+  background-color: #fff001;
   font-family: 'Lato', sans-serif;
   color: white;
   margin: 10px;
@@ -235,8 +240,10 @@ h2 {
 }
 
 .picture_area {
+  max-height: 383px;
   float: right;
   width: 50%;
+  overflow: hidden;
 }
 
 .contact_bar {
