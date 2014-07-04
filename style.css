@@ -140,9 +140,10 @@ nav {
 }
 
 .nav_buffer {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95%;
+  float: right;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 .nav_button {
@@ -151,8 +152,8 @@ nav {
   text-shadow: 1px 1px 1px black;
   color: #8ca6c2;
   font-family: Helvetica;
-  font-size: 1em;
-  width: auto;
+  font-size: 0.9rem;
+  /*width: auto;*/
   padding-left: 15px;
   padding-right: 15px;
   height: 44px;
