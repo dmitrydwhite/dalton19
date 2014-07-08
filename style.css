@@ -223,6 +223,10 @@ ul li {
   float: left;
 }
 
+.events a {
+  color: black;
+}
+
 .events_title {
   font-size: 28px;
   font-weight: bold;
