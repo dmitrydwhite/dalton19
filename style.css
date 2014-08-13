@@ -28,6 +28,12 @@ img {
   width: 33%;
 }
 
+.logo_center {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .upper_button_area {
   float: right;
   width: 67%;
@@ -140,9 +146,10 @@ nav {
 }
 
 .nav_buffer {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95%;
+  float: right;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 .nav_button {
@@ -151,8 +158,8 @@ nav {
   text-shadow: 1px 1px 1px black;
   color: #8ca6c2;
   font-family: Helvetica;
-  font-size: 1em;
-  width: auto;
+  font-size: 0.9rem;
+  /*width: auto;*/
   padding-left: 15px;
   padding-right: 15px;
   height: 44px;
@@ -222,6 +229,10 @@ ul li {
   float: left;
 }
 
+.events a {
+  color: black;
+}
+
 .events_title {
   font-size: 28px;
   font-weight: bold;
@@ -273,6 +284,96 @@ ul li {
   float: right;
   width: 50%;
   overflow: hidden;
+}
+
+.picture_area img {
+  position: top;
+  float: right;
+}
+
+.support_form {
+  width: 90%;
+  height: 100%;
+  background-color: #fff001;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.form_header {
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: Helvetica;
+  text-shadow: 1px 1px 1px black;
+  color: #8ca6c2;
+  background: -webkit-linear-gradient(#1c1336, #291c4f); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#1c1336, #291c4f); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#1c1336, #291c4f); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#1c1336, #291c4f); /* Standard syntax */
+  margin-bottom: 8px;
+}
+
+.form_spacer {
+  background-color: #16205b;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.form_spacer .support_button {
+  width: 60%;
+}
+
+.form_checks {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.full_width {
+  width: 100%;
+}
+
+.support_form input {
+  vertical-align: middle;
+}
+
+.namez {
+  min-width: 33%;
+  margin-right: 8%;
+  margin-left: 8%;
+}
+
+.name_label {
+  float: left;
+  width: 33%;
+  padding: 1px;
+  border: 2px solid #fff001;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.support_form .full_line, .comments {
+  margin-left: 8%;
+  margin-right: 8%;
+  min-width: 83%;
+}
+
+.full_line_label {
+  float: left;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+form textarea {
+  background-color: #fff001;
+  height: 6rem;
+}
+
+form .support_button {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+  vertical-align: middle;
 }
 
 .contact_bar {
